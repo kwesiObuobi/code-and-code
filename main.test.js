@@ -64,12 +64,50 @@ describe('Calculator Operations', () => {
       expect(result).not.toBe(96);
     });
 
-    it('should add (100 + 3) - 3 to be equal to 100', () => {
+    it('should subtract (100 + 3) - 3 to be equal to 100', () => {
       const result = calculator.subtract((100 + 3), 3);
 
       expect(result).toBe(100);
     });
   });
 
+  describe('Division Operations', () => {
+    it('should divide 6 / 3 to equal 2', () => {
+      const result = calculator.divide(6, 3);
 
+      expect(result).toBe(2);
+    });
+
+    it('should divide 100 / 20 to not be equal to 6', () => {
+      const result = calculator.divide(100, 20);
+
+      expect(result).not.toBe(6);
+    });
+
+    it('should divide 100 / 20 to be equal to 5', () => {
+      const result = calculator.divide(100, 20);
+
+      expect(result).toBe(5);
+    });
+  });
+
+  describe('Multiplication Operations', () => {
+    it('should multiply 2 * 3 to equal 6', () => {
+      const result = calculator.multiply(2, 3);
+
+      expect(result).toBe(6);
+    });
+
+    it('should multiply 2 * 6 to not be equal to 5', () => {
+      const result = calculator.multiply(2, 6);
+
+      expect(result).not.toBe(5);
+    });
+
+    it('should multiply 2 * 100 to be equal to 200', () => {
+      const result = calculator.multiply(2, 100);
+
+      expect(result).toBe(200);
+    });
+  });
 });
