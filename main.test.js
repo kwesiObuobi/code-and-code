@@ -50,4 +50,26 @@ describe('Calculator Operations', () => {
       expect(result).toBe(113);
     });
   });
+
+  describe('Subtraction Operations', () => {
+    it('should subtract 7 + 3 to equal 4', () => {
+      const result = calculator.subtract(7, 3);
+
+      expect(result).toBe(4);
+    });
+
+    it('should subtract 100 - 3 to not be equal to 96', () => {
+      const result = calculator.subtract(100, 3);
+
+      expect(result).not.toBe(96);
+    });
+
+    it('should add (100 + 3) - 3 to be equal to 100', () => {
+      const result = calculator.subtract((100 + 3), 3);
+
+      expect(result).toBe(100);
+    });
+  });
+
+
 });
