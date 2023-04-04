@@ -9,4 +9,11 @@ const reverseString = (string) => {
   return string.toLowerCase().split('').reverse().join('');
 }
 
-module.exports = {stringLength, reverseString}
+class Calculator {
+  add = (a, b) => a + b;
+  subtract = (a, b) => a - b;
+  divide = (a, b) => a / b;
+  multiply = (a, b) => a * b;
+}
+
+module.exports = {stringLength, reverseString, Calculator}
