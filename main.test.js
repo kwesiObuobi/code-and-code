@@ -1,4 +1,4 @@
-const {stringLength, reverseString, Calculator} = require('./main');
+const {stringLength, reverseString, Calculator, capitalize} = require('./main');
 
 describe('String Length', () => {
   it('should return the correct length of the string', () => {
