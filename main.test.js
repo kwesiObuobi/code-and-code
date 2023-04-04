@@ -13,5 +13,9 @@ describe('String Length', () => {
     expect(length).toBe('invalid input');
   });
 
-  
+  it('should return an error if the string has more than 10 character', () => {
+    const length = stringLength('Programming is fun');
+
+    expect(length).toBe('invalid input');
+  });
 })
