@@ -5,8 +5,8 @@ const stringLength = (string) => {
   return 'invalid input';
 }
 
-const reverseStriing = (string) => {
+const reverseString = (string) => {
   return string.toLowerCase().split('').reverse().join('');
 }
 
-module.exports = {stringLength, reverseStriing}
+module.exports = {stringLength, reverseString}
