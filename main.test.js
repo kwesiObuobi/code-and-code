@@ -43,5 +43,11 @@ describe('Calculator Operations', () => {
 
       expect(result).not.toBe(104);
     });
+
+    it('should add (100 + 3) + 10 to be equal to 113', () => {
+      const result = calculator.add((100 + 3), 10);
+
+      expect(result).toBe(113);
+    });
   });
 });
