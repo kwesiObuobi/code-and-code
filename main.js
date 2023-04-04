@@ -16,4 +16,10 @@ class Calculator {
   multiply = (a, b) => a * b;
 }
 
-module.exports = {stringLength, reverseString, Calculator}
+const capitalize = (string) => {
+  strArray = string.split('');
+  strArray[0] = strArray[0].toUpperCase();
+  return strArray.join('');
+}
+
+module.exports = {stringLength, reverseString, Calculator, capitalize}

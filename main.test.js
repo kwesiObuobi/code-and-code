@@ -111,3 +111,9 @@ describe('Calculator Operations', () => {
     });
   });
 });
+
+test('capitalize a string', () => {
+  const str = capitalize('programming');
+
+  expect(str).toBe('Programming');
+})
