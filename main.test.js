@@ -1,4 +1,4 @@
-const {stringLength, reverseString} = require('./main');
+const {stringLength, reverseString, Calculator} = require('./main');
 
 describe('String Length', () => {
   it('should return the correct length of the string', () => {
@@ -25,5 +25,17 @@ describe('Reversing a string', () => {
     const reversedString = reverseString('saMMy');
 
     expect(reversedString).toBe('ymmas');
+  })
+})
+
+describe('Calculator Operations', () => {
+  const calculator = new Calculator();
+
+  describe('Addition Operations', () => {
+    it('should add 2 + 3 to equal 5', () => {
+      const result = calculator.add(2, 3);
+
+      expect(result).toBe(5);
+    })
   })
 })
