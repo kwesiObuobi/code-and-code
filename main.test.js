@@ -36,6 +36,12 @@ describe('Calculator Operations', () => {
       const result = calculator.add(2, 3);
 
       expect(result).toBe(5);
-    })
-  })
-})
+    });
+
+    it('should add 100 + 3 to not be equal to 104', () => {
+      const result = calculator.add(100, 3);
+
+      expect(result).not.toBe(104);
+    });
+  });
+});
