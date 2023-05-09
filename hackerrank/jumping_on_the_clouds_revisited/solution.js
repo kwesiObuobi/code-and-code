@@ -19,4 +19,7 @@ const jumpClouds = (c, k) => {
 }
 
 console.log(jumpClouds([0,0,1,0,0,1,1,0], 2));
+// 92
+
 console.log(jumpClouds([0,0,1,0], 2));
+//96
