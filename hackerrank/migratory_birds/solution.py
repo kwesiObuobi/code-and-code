@@ -1,23 +1,23 @@
 def migratoryBirds(arr):
-  arrDict = {}
-  maxValues = []
+  arr_dict = {}
+  max_values = []
   max = 0
   for i in range(len(arr)):
-    if arrDict.get(arr[i]):
-      arrDict[arr[i]] = arrDict[arr[i]] + 1
+    if arr_dict.get(arr[i]):
+      arr_dict[arr[i]] = arr_dict[arr[i]] + 1
     else:
-      arrDict[arr[i]] = 1
+      arr_dict[arr[i]] = 1
       
       
-    if arrDict[arr[i]] == max:
-      maxValues.append(arr[i])
+    if arr_dict[arr[i]] == max:
+      max_values.append(arr[i])
         
-    if arrDict[arr[i]] > max:
-      maxValues.clear()
-      maxValues.append(arr[i])
-      max = arrDict[arr[i]]
+    if arr_dict[arr[i]] > max:
+      max_values.clear()
+      max_values.append(arr[i])
+      max = arr_dict[arr[i]]
         
-  return min(maxValues)
+  return min(max_values)
 
 
 print(migratoryBirds([1,2,3,4,5,4,3,2,1,3,4]))

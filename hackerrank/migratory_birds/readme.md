@@ -6,3 +6,5 @@ Example
 `arr = [1,1,2,2,3]`
 
 There are two each of types `1` and `2`, and one sighting of type `3`. Pick the lower of the two types seen twice: type `1`.
+
+Click [here](https://www.hackerrank.com/challenges/migratory-birds/problem) to see the original problem on [hackerrank.com](https://www.hackerrank.com)

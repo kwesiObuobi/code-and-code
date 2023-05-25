@@ -23,4 +23,4 @@ sockMerchant has the following parameter(s):
 The first line contains an integer ```n```, the number of socks represented in `ar`.
 The second line contains `n` space-separated integers, `ar[i]`, the colors of the socks in the pile.
 
-Click [here](https://www.hackerrank.com/challenges/sock-merchant/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign) to see the original problem on [hackerrank.com](https://www.hackerrank.com)
+Click [here](https://www.hackerrank.com/challenges/sock-merchant/problem) to see the original problem on [hackerrank.com](https://www.hackerrank.com)
