@@ -18,4 +18,4 @@ grade = 57 do not round (60 - 57 is 3 or higher)
  ```
 Given the initial value of `grade` for each of Sam's `n` students, write code to automate the rounding process.
 
-Click [here](https://www.hackerrank.com/challenges/gradingproblem) to see the original problem on [hackerrank.com](https://www.hackerrank.com)
+Click [here](https://www.hackerrank.com/challenges/grading/problem) to see the original problem on [hackerrank.com](https://www.hackerrank.com)
