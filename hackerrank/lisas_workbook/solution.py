@@ -2,19 +2,19 @@ def workbook(n, k, arr):
   # Write your code here
   specials = 0
   page = 1
-  for i in arr:
-    for j in range(i):
+  for i in range(n):
+    for j in range(arr[i]):
       if j + 1 == page:
         specials += 1
       
-      # only increase the page number when
-      # we are not on the last page for k problems
       if (j + 1) % k == 0:
         page += 1
     
-    if i % k == 0:
+    if arr[i] % k == 0:
       continue
     
+    # only increase the page number when
+    # we are not on the last page for k problems
     page += 1
   
   return specials
