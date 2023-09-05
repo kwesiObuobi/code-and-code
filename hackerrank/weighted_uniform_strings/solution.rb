@@ -1,6 +1,6 @@
+require 'set'
 
-# count = 1
-def weightedUniformStrings(s, queries)
+def weighted_uniform_strings(s, queries)
   count = 1
   prev = nil
   base = 'a'.ord
@@ -34,3 +34,12 @@ def weightedUniformStrings(s, queries)
   return queries
 
 end
+
+print(weighted_uniform_strings('abccddde', [6, 1, 3, 12, 5, 9, 10]))
+# ['Yes', 'Yes', 'Yes', 'Yes', 'No', 'No']
+
+print(weighted_uniform_strings('aaabbbbcccddd', [9, 7, 8, 12, 5]))
+# ['Yes', 'No', 'Yes', 'Yes', 'No']
+
+print(weighted_uniform_strings('abbcccddd', [1, 7, 5, 4, 15]))
+# ['Yes', 'No', 'No', 'Yes', 'No']
