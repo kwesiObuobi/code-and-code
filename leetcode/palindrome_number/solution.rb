@@ -1,4 +1,4 @@
-@param {Integer} x
+# @param {Integer} x
 # @return {Boolean}
 def is_palindrome(x)
   return false if x < 0
@@ -14,3 +14,12 @@ def is_palindrome(x)
 
   reversed_x == original_x
 end
+
+puts(is_palindrome(12))
+# false
+
+puts(is_palindrome(121))
+# true
+
+puts(is_palindrome(4334))
+# true
