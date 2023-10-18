@@ -18,4 +18,4 @@ m = 2
 
 Lily wants to find segments summing to Ron's birth day,  `d = 4` with a length equalling his birth month, `m = 2`. In this case, there are two segments meeting her criteria: `[2,2]`  and `[1,3]`.
 
-Click [here](https://www.hackerrank.com/challenges/the-birthday-bar/problem) to go see the official problem from [Hackerrank](https://www.hackerrank.com/)
+Click [here](https://www.hackerrank.com/challenges/the-birthday-bar/problem) to see the official problem from [Hackerrank](https://www.hackerrank.com/)

@@ -21,4 +21,4 @@ countApplesAndOranges has the following parameter(s):
 - apples: integer array, distances at which each apple falls from the tree.
 - oranges: integer array, distances at which each orange falls from the tree.
 
-Click [here](https://www.hackerrank.com/challenges/apple-and-orange/problem) to go see the official problem from [Hackerrank](https://www.hackerrank.com/)
+Click [here](https://www.hackerrank.com/challenges/apple-and-orange/problem) to see the official problem from [Hackerrank](https://www.hackerrank.com/)

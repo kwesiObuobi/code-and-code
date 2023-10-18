@@ -14,5 +14,5 @@ Example.
 
 The indices of the path are `0->2->0`. The energy level reduces by `1` for each jump to `98`. The character landed on one thunderhead at an additional cost of `2` energy units. The final energy level is `96`.
 
-Click [here](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem) to go see the official problem from [Hackerrank](https://www.hackerrank.com/)
+Click [here](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem) to see the official problem from [Hackerrank](https://www.hackerrank.com/)
 

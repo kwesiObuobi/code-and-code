@@ -8,4 +8,4 @@ Example
 
 Three pairs meet the criteria:`[1,4], [2,3]` and `[4,6]`.
 
-Click [here](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem) to go see the official problem from [Hackerrank](https://www.hackerrank.com/)
+Click [here](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem) to see the official problem from [Hackerrank](https://www.hackerrank.com/)

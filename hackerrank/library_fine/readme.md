@@ -12,4 +12,4 @@ Example
 
 The first values are the return date and the second are the due date. The years are the same and the months are the same. The book is `14 - 5 = 9` days late. Return `5 * 9 = 135`.
 
-Click [here](https://www.hackerrank.com/challenges/library-fine/problem) to go see the official problem from [Hackerrank](https://www.hackerrank.com/)
+Click [here](https://www.hackerrank.com/challenges/library-fine/problem) to see the official problem from [Hackerrank](https://www.hackerrank.com/)
