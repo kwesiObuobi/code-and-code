@@ -8,9 +8,9 @@ function camelcase(s) {
   return ++count;
 }
   
-  console.log(camelcase('oneTwoThree'))
-  // 3
-  
-  console.log(camelcase('saveChangesInTheEditor'))
-  // 5
+console.log(camelcase('oneTwoThree'))
+// 3
+
+console.log(camelcase('saveChangesInTheEditor'))
+// 5
   
